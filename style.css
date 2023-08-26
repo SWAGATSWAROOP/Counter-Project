@@ -1,0 +1,66 @@
+#Main-Box{
+    width:80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: aquamarine;
+    vertical-align: middle;
+    padding-bottom: 5%;
+}
+
+h3{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#Input-Box {
+    margin-top: 4%;
+    width: 40%;
+    background-color: white;
+    resize: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block; /* Display as inline block */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin-left: 10%; /* Add some space between input and button */
+    border-radius: 4px;
+}
+
+#Submit-Button{
+    margin-top: 4%;
+    border: solid black 1px;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+    display: inline-block; /* Display as inline block */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin-left: 30%; /* Add some space between input and button */
+    transition: background-color 0.5s ease;
+    border-radius: 4px;
+}
+
+#Submit-Button:active{
+    background-color: lightgrey;
+}
+
+#CounterBox{
+    height: 2vh;
+    width: 5vh;
+    background-color: black;
+}
+
+#Counter{
+    height: 3vh;
+    width: 5vh;
+    background-color: white;
+    vertical-align: middle; /* Align vertically in the middle */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
