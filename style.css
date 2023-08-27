@@ -48,18 +48,35 @@ h3{
 }
 
 #CounterBox{
-    height: 2vh;
-    width: 5vh;
-    background-color: black;
+    height: 15rem;
+    width: 50rem;
+    margin-top: 4%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
 }
 
 #Counter{
-    height: 3vh;
-    width: 5vh;
+    height: 10vh;
+    width: 10vh;
     background-color: white;
-    vertical-align: middle; /* Align vertically in the middle */
+    border: 1px solid black;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
+
+
+
+
+
+
 
 
 
