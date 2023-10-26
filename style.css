@@ -58,20 +58,33 @@ h3{
     background-color: lightgrey;
 }
 
-#Counter{
+.Counter-Box{
     height: 10vh;
     width: 10vh;
+    overflow: hidden;
+    color: black;
     background-color: white;
-    border: 1px solid black;
+}
+
+.Counter{
+    height: 80%;
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     font-weight: bolder;
-    display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
 }
 
+.Counter-next{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 
 
 
